@@ -7,8 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>拳皇</title>
     <link rel="stylesheet" href="/static/css/base.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="kof"></div>
 
+    <script type="module">
+        import {KOF} from '/static/js/base.js'
+
+        let kof = new KOF('kof')
+    </script>
 </body>
 </html>
